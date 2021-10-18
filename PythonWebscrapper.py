@@ -43,7 +43,7 @@ element2 = WebDriverWait(driver, 100).until(
 
 username = driver.find_element_by_css_selector('input[name="password"]')
 username.clear()
-username.send_keys("jwkgR6tBN6esR2Q")
+username.send_keys("************")
 username.send_keys(Keys.RETURN)
 
 #===========================================================================================
